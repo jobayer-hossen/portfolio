@@ -1,9 +1,8 @@
 import React from 'react';
-import Img from '../assets/Willie.png'
-import circle from '../assets/circle.png'
+import Fade from 'react-reveal/Fade';
 import img2 from '../assets/25_182305.jpg'
 import Type from './Type';
-import { Link } from 'react-scroll';
+
 
 const Home = () => {
     return (
@@ -12,6 +11,7 @@ const Home = () => {
                 <div className='grid lg:grid-cols-2 sm:grid-cols-1 w-full'>
                     {/* image & content */}
                     {/* text */}
+                    <Fade left>
                     <div className='text-white'>
                         <h6 className='text-3xl mt-12'>Hello, I'm</h6>
                         <h1 className='font-semibold md:text-5xl my-4 text-3xl'>Jobayer Hossen</h1>
@@ -27,10 +27,13 @@ const Home = () => {
                           
                         </div>
                     </div>
+                    </Fade>
                     {/* img */}
+                    <Fade right>
                     <div className=''>
                         <img className='w-72 mx-auto rounded' src={img2} alt="" />
                     </div>
+                    </Fade>
                 </div>
             </div>
             <div className='h-24 bg-[#181824] w-full mx-auto absolute left-0 hidden md:block'>

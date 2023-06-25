@@ -1,9 +1,11 @@
 import React from 'react';
-
+import Fade from 'react-reveal/Fade';
 import services from '../../public/services.js';
 
 const Services = () => {
     return (
+       <>
+       <Fade bottom >
         <div>
               <h1 className="text-green-400 font-semibold text-3xl mt-14">The services i offer:</h1>
               <div className='grid md:grid-cols-3 my-8 gap-5'>
@@ -16,6 +18,8 @@ const Services = () => {
               }
               </div>
         </div>
+        </Fade>
+       </>
     );
 };
 

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Fade from 'react-reveal/Fade';
 import {
   BookOpenIcon,
   Bars3BottomRightIcon,
@@ -16,6 +17,8 @@ const Header = () => {
   let [open, setOpen] = useState(false);
 
   return (
+    <>
+    <Fade top>
     <div className="w-full max-w-7xl">
       <div className="md:flex items-center justify-between py-4 md:px-10 px-7">
         {/* logo section */}
@@ -52,6 +55,8 @@ const Header = () => {
         {/* button */}
       </div>
     </div>
+    </Fade>
+    </>
   );
 };
 

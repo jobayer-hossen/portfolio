@@ -2,11 +2,13 @@ import React from "react";
 import img1 from '../assets/projects/img1.png'
 import img2 from '../assets/projects/img2.png'
 import img3 from '../assets/projects/img3.png'
-import { Link } from "react-scroll";
+import Fade from 'react-reveal/Fade';
 
 const Projects = () => {
   
   return (
+    <>
+    <Fade bottom>
     <div className="md:px-10 px-7 my-8" id="projects">
       <h1 className="text-green-400 font-semibold text-3xl mt-16">
         Featured projects
@@ -115,6 +117,8 @@ const Projects = () => {
 
 
     </div>
+    </Fade>
+    </>
   );
 };
 

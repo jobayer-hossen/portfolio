@@ -1,17 +1,12 @@
 import React from "react";
 import Services from "./Services";
+import Fade from 'react-reveal/Fade';
 
 const About = () => {
-  const skills = [
-    { name: "UI & UX DESIGNING", image: "/src/assets/icons/ruler-pen.png" },
-    { name: "WEB DEVELOPMENT", image: "/src/assets/icons/code.png" },
-    { name: "MOBILE DEVELOPMENT", image: "/src/assets/icons/android.png" },
-    {
-      name: "WEB SCRAPING WITH PYTHON",
-      image: "/src/assets/icons/python-svg.png",
-    },
-  ];
+
   return (
+    <>
+    <Fade bottom>
     <div className="md:px-10 px-7 sm:-mt-24" id="about">
       <h1 className="text-green-400 font-semibold text-3xl mt-5">About me:</h1>
       <p className="my-3 text-white md:w-2/3 leading-[2]">
@@ -44,6 +39,8 @@ my next project. I want to share my ideas and experiences creatively with anothe
       {/* services section */}
       <Services/>
     </div>
+    </Fade>
+    </>
   );
 };
 

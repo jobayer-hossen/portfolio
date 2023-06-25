@@ -1,8 +1,11 @@
 import React from "react";
 import { FaFacebookF ,FaGithub,FaLinkedinIn,FaEnvelope} from "react-icons/fa";
+import Fade from 'react-reveal/Fade';
 
 const Contact = () => {
   return (
+    <>
+    <Fade bottom >
     <div className="md:px-10 px-7 my-10" id="contact">
       <div className="flex flex-col md:flex-row">
         {/* text and icons */}
@@ -38,13 +41,15 @@ const Contact = () => {
                 <input type="text" name="name" placeholder="Name:" className="bg-[#F5F5F5] bg-opacity-10 py-3 px-3 md:w-3/4 w-full rounded "/>
                 <input type="email" name="email" placeholder="Email:" className="bg-[#F5F5F5] bg-opacity-10 py-3 px-3 md:w-3/4 w-full rounded my-3"/>
                 <textarea name="message" id="message" cols="54" rows="4" className="bg-[#F5F5F5] bg-opacity-10 py-3 px-3 md:w-3/4 w-full rounded mb-2" placeholder="Message:"></textarea>
-                <button className="btn transition-all duration-500 text-green-400 py-2 px-12 rounded text-white hover:bg-white hover:text-green-400 block">
+                <button className="btn transition-all duration-500 text-green-400 py-2 px-12 rounded hover:bg-white hover:text-green-400 block">
                   Send
                 </button>
             </form>
         </div>
       </div>
     </div>
+    </Fade>
+    </>
   );
 };
 
