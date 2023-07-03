@@ -1,23 +1,63 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
-import services from '../../public/services.js';
+
 
 const Services = () => {
     return (
        <>
        <Fade bottom >
-        <div>
-              <h1 className="text-green-400 font-semibold text-3xl mt-14">The services i offer:</h1>
-              <div className='grid md:grid-cols-3 my-8 gap-5'>
-              {
-                services.map(service => <div key={service.id} className='service-card flex flex-col justify-center items-center p-6 text-center text-white'>
-                    <img src={service.image} alt="" className='mb-3' />
-                    <h6 className='text-2xl mb-4'>{service.name}</h6>
-                    <p className='text-base'>{service.description}</p>
-                </div>)
-              }
-              </div>
+       <div className='gap-6 grid lg:grid-cols-3 sm:grid-cols-1 mx-auto'>
+       
+       <div className="overflow-hidden bg-green-200 rounded shadow-md text-slate-500 shadow-green-100">
+        <div className="p-6">
+          <header className="mb-4">
+            <h3 className="text-xl font-medium text-slate-700">
+            Expertise
+            </h3>
+           
+          </header>
+         <p>HTML</p>
+         <p>CSS</p>
+         <p>TailwindCSS</p>
+         <p>React JS</p>
+         <p>Bootstrap</p>
+         <p>Firebase</p>
         </div>
+      </div>
+       <div className="overflow-hidden bg-green-200 rounded shadow-md text-slate-500 shadow-green-100">
+        <div className="p-6">
+          <header className="mb-4">
+            <h3 className="text-xl font-medium text-slate-700">
+            Comfortable
+            </h3>
+           
+          </header>
+         <p>Express js</p>
+         <p>JWT</p>
+         <p>Stripe JS</p>
+         <p>Express JS</p>
+         <p>MongoDB</p>
+        </div>
+      </div>
+       <div className="overflow-hidden bg-green-200 rounded shadow-md text-slate-500 shadow-green-100">
+        <div className="p-6">
+          <header className="mb-4">
+            <h3 className="text-xl font-medium text-slate-700">
+            Tools
+            </h3>
+           
+          </header>
+         <p>VS Code</p>
+         <p>Netlify</p>
+         <p>Vercel</p>
+         <p>Figma</p>
+         <p>GitHub</p>
+         <p>Firebase</p>
+        </div>
+      </div>
+
+
+       </div>
         </Fade>
        </>
     );

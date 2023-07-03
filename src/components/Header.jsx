@@ -47,7 +47,8 @@ const Header = () => {
                 spy={true}
                 className="text-white hover:text-green-400 duration-500"
               >
-                {link.name}
+                <button>{link.name}</button>
+                
               </Link>
             </li>
           ))}

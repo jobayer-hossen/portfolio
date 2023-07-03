@@ -18,11 +18,11 @@ const Home = () => {
                         <div className='text-2xl'>
                         <Type/>
                         </div>
-                        <div className='mt-10'>
+                        <div className='mt-20 mb-10'>
                             <a
                              target="_blank"
-                             href='https://drive.google.com/file/d/1szYEjEX4e4YWLM7_w_gS3TMwjA9-QeM3/view'>
-                            <button className='btn transition-all duration-500 text-green-400 py-2 px-4 rounded  hover:bg-green-200 hover:text-green-400'>Resume</button> 
+                             href='https://drive.google.com/file/d/1u0cxiEMTlyTU5S3sGW9J3scPDqWi3ZEQ/view'>
+                            <button className='btn transition-all duration-500 text-green-400 py-2 px-4 rounded bg-green-200 '>Resume</button> 
                             </a>
                           
                         </div>
@@ -31,7 +31,7 @@ const Home = () => {
                     {/* img */}
                     <Fade right>
                     <div className=''>
-                        <img className='w-72 mx-auto rounded' src={img2} alt="" />
+                        <img className='w-72 mx-auto rounded mb-10' src="https://img.freepik.com/free-photo/businessman_144627-34865.jpg?w=360&t=st=1688383450~exp=1688384050~hmac=32ccd0008f7067875e8328944ba847b900ba4537fd226ef9b7add287c87019b7" alt="" />
                     </div>
                     </Fade>
                 </div>

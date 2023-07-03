@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
     "@heroicons/react": "^2.0.18",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.1",
@@ -17,6 +18,7 @@
     "react-icons": "^4.10.1",
     "react-reveal": "^1.2.2",
     "react-scroll": "^1.8.9",
+    "sweetalert2": "^11.7.12",
     "typewriter-effect": "^2.20.1"
   },
   "devDependencies": {

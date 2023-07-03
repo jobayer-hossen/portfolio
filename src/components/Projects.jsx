@@ -32,7 +32,7 @@ const Projects = () => {
               <p className=" text-white mt-1">
                  E-Learning Photography Application
               </p>
-              <div className="mt-5 flex justify-between">
+              <div className="mt-5 flex ">
                <a 
                target="blank"
                href='https://twelve-assignment-42702.web.app/'>
@@ -45,7 +45,16 @@ const Projects = () => {
                 href='https://github.com/jobayer-hossen/twelve-assignment-clinte'
                 >
                 <button className="btn transition-all duration-500 text-green-400 py-2 px-2 rounded hover:bg-white hover:text-green-400">
-                 gitHub Code
+                 Client Code
+                </button>
+                </a>
+                {/* ggg */}
+                <a
+                target="blank"
+                href='https://github.com/jobayer-hossen/twelve-assignment-server'
+                >
+                <button className="btn transition-all duration-500 text-green-400 py-2 px-2 rounded hover:bg-white hover:text-green-400">
+                 Server Code
                 </button>
                 </a>
               </div>
@@ -75,7 +84,15 @@ const Projects = () => {
                 href='https://github.com/jobayer-hossen/eleventh-clinte'
                 >
                 <button className="btn transition-all duration-500 text-green-400 py-2 px-2 rounded hover:bg-white hover:text-green-400">
-                 gitHub Code
+                Client Code
+                </button>
+                </a>
+               <a
+                target="blank"
+                href='https://github.com/jobayer-hossen/eleventh-server'
+                >
+                <button className="btn transition-all duration-500 text-green-400 py-2 px-2 rounded hover:bg-white hover:text-green-400">
+                 Server Code
                 </button>
                 </a>
               </div>
@@ -106,13 +123,20 @@ const Projects = () => {
                 href='https://github.com/jobayer-hossen/tenth-clinte'
                 >
                 <button className="btn transition-all duration-500 text-green-400 py-2 px-2 rounded hover:bg-white hover:text-green-400">
-                 gitHub Code
+                 Client Code
+                </button>
+                </a>
+               <a
+                target="blank"
+                href='https://github.com/jobayer-hossen/tenth-server'
+                >
+                <button className="btn transition-all duration-500 text-green-400 py-2 px-2 rounded hover:bg-white hover:text-green-400">
+                 Server Code
                 </button>
                 </a>
               </div>
             </div>
       </div>
-
 
 
 
