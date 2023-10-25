@@ -2,13 +2,14 @@ import React from 'react';
 import Fade from 'react-reveal/Fade';
 import img2 from '../assets/25_182305.jpg'
 import Type from './Type';
+import Spline from '@splinetool/react-spline';
 
 
 const Home = () => {
     return (
         <div className='md:px-10 px-7 my-14 md:h-screen bg-[#1a1a29]' id='home'>
             <div>
-                <div className='grid lg:grid-cols-2 sm:grid-cols-1 w-full'>
+                <div className='grid lg:grid-cols-2 sm:grid-cols-1 w-full h-[500px]'>
                     {/* image & content */}
                     {/* text */}
                     <Fade left>
@@ -31,7 +32,7 @@ const Home = () => {
                     {/* img */}
                     <Fade right>
                     <div className=''>
-                        <img className='w-72 mx-auto rounded mb-10' src="https://img.freepik.com/free-photo/businessman_144627-34865.jpg?w=360&t=st=1688383450~exp=1688384050~hmac=32ccd0008f7067875e8328944ba847b900ba4537fd226ef9b7add287c87019b7" alt="" />
+                    <Spline scene="https://prod.spline.design/uLyF8e4iFaUAHP4U/scene.splinecode" />
                     </div>
                     </Fade>
                 </div>
